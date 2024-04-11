@@ -272,37 +272,38 @@ body {
     background-image: url("/8.png");
 } */
 
-/* 
+
 #banner3 {
+    grid-gap: -100px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 0 80px;
-} */
-
+}
+/* re */
 #banner3 .banner-box {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background-image: url("images/banner9.png");
-    min-width: 30%;
-    height: 60vh;
+    background-image: url("./banner3.jpg");
+    width: 40vh;
+    height: 50vh;
     background-size: cover;
     background-position: center;
     padding: 20px;
     margin-bottom: 20px;
 }
 
+#banner3 .banner-boxvideo {
+    margin-left: 600px;
+}
+
+/* pla */
 #banner3 .banner-box2 {
-    background-image: url("images/banner10.png");
+    background-image: url("./banner1.jpg");
+    
 }
-
-#banner3 .banner-box3 {
-    background-image: url("images/BANNER5.png");
-
-}
-
 #banner3 h2 {
     color: #fff;
     font-weight: 900;
