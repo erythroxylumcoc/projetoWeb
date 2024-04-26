@@ -16,7 +16,7 @@ h2 {
     margin-bottom: 20px;
 }
 input[type="text"],
-input[type="password"] {
+input[type="password"], input[type="number"] {
     width: calc(100% - 20px);
     padding: 10px;
     margin-bottom: 10px;
