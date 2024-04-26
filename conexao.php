@@ -2,8 +2,7 @@
 $servidor = "localhost";
 $usuario = "root";
 $senha = "";
-// CRIAR O SERV 
-$dbname = "";
+$dbname = "brecho";
 
 // Criar conexão
-$conn = mysqli_connect($servidor, $usuario, $senha, $dbname);
+$conexao = mysqli_connect($servidor, $usuario, $senha, $dbname);
