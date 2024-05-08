@@ -18,7 +18,7 @@ Session_start()
             <input type="text" id="username" placeholder="Nome de usuário" required>
             <input type="password" id="password" placeholder="Senha" required>
             <input type="button" value="Login" onclick="login()">
-            <a href="cadastro.php"><input type="button" value="Cadastrar"></a>
+            
         </form>
     </div>
     <script src="login.js"></script>

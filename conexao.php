@@ -5,4 +5,4 @@ $senha = "";
 $dbname = "brecho";
 
 // Criar conexão
-$conexao = mysqli_connect($servidor, $usuario, $senha, $dbname);
+$conn = mysqli_connect($servidor, $usuario, $senha, $dbname);

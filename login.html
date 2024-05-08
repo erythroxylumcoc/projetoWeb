@@ -1,67 +1,25 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color:#FFF8DC;
-        }
-        .container {
-            width: 380px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color:#FFDAB9;
-            border-radius: 15px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            margin-top: 100px;
-        }
-        h2 {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        input[type="text"],
-        input[type="password"] {
-            width: calc(100% - 20px);
-            padding: 10px;
-            margin-bottom: 10px;
-            border: 1px solid #ccc;
-            border-radius: 3px;
-        }
-        input[type="submit"] {
-            width: 100%;
-            padding: 15px;
-            background-color: #007bff;
-            color: #FFF8DC;
-            border: none;
-            border-radius: 10px;
-            cursor: pointer;
-        }
-        input[type="submit"]:hover {
-            background-color:#FFF8DC;
-        }
-        img{
-            margin-left: 18%;
-            margin-top: -15%;
-            margin-bottom: -25%;
-            width: 250px;
-            display: flex;
-            justify-content: center;
-        }
-    </style>
+    <link rel="stylesheet" href="login.css">
+    <title>Document</title>
 </head>
+
 <body>
     <div class="container">
-        <img src="./logo.png" alt="">
-        <h2>ReVeste Vintage</h2>
-        <form action="login.php" method="post">
-            <input type="text" name="username" placeholder="Nome de usuário" required>
-            <input type="password" name="password" placeholder="Senha" required>
-            <input type="submit" 
-            value="Login">
+        <img src="./logo-removebg-preview.png">
+        <form>
+            <input type="text" id="username" placeholder="Nome de usuário" required>
+            <input type="password" id="password" placeholder="Senha" required>
+            <a href="pagprincipal.html"><input type="button" value="Login" onclick="login()"></a>
+            <a href="cadastro.php"><input type="button" value="Cadastro"></a>
         </form>
     </div>
+    <script src="login.js"></script>
 </body>
+
 </html>

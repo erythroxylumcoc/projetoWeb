@@ -12,8 +12,7 @@ Session_start()
 </head>
 <body>
     <div class="container">
-        <img src="./logo.png" alt="">
-        <h2>ReVeste Vintage</h2>
+        <img src="./logo-removebg-preview.png">
         <?php
         if(isset($_SESSION['msg'])){
             echo $_SESSION['msg'];
@@ -31,7 +30,7 @@ Session_start()
             
             <input type="password" name="senha" placeholder="cadastre uma senha" required><br>
                          
-            <a href="http:login.php"><input type="submit" value="Cadastre-se"></a>
+            <a href="login.php"><input type="submit" value="Cadastre-se"></a>
         </form>
     </div>
 </body>
